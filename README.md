@@ -14,8 +14,8 @@ This libary allows the user to save and load a encrypted database file and use i
 
 * ### Encrypt Database
 * You can encrypt the database by writing: `encrypted = db.encrypt_database()`
-* You can also encrypt the dabase to a file by writing: `db.encrypt_database(True, 'Specify your database filename here')`
+* You can also encrypt the dabase to a file by writing: `db.encrypt_database(True, 'Specify your filename here')`
 
 * ### Load Database
 * You can load the database by writing: `db.load_database(encrypted_data_here)`
-* You can also load the dabase from a file by writing: `db2.load_database(isfile=True, filename='Specify your database filename here')`
+* You can also load the dabase from a file by writing: `db2.load_database(isfile=True, filename='Specify your filename here')`
