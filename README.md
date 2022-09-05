@@ -8,7 +8,7 @@ This library allows the user to usa an encrypted database.
 
 ### AES
 
-    * ### Setup Database
+    ### Setup Database
       * Next we will define a key: `key = 'password123'`
       * Then we make a database with this line: `db = AES_Database(key)`
       * We can make a new database by writing: `db.create_database(name='specify the name of your database here')`
@@ -24,7 +24,7 @@ This library allows the user to usa an encrypted database.
   
 ### RSA
 
-    * ### Setup Database
+    ### Setup Database
       * Then we make a database with this line: `db = RSA_Database()`
       * We can make a new database by writing: `db.create_database(name='specify the name of your database here')`
       * We can also set the database by writing: `db.database = json_data`
