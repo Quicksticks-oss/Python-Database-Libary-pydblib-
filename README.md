@@ -22,7 +22,7 @@ This library allows the user to usa an encrypted database.
   * You can load the database by writing: `db.load_database(encrypted_data_here)`
   * You can also load the dabase from a file by writing: `db2.load_database(isfile=True, filename='Specify your filename here')`
   
-### RSA
+### RSA (BETA)
 
 * ### Setup Database
   * Then we make a database with this line: `db = RSA_Database()`
